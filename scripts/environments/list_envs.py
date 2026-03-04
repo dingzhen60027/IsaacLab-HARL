@@ -50,7 +50,13 @@ def main():
             # increment count
             index += 1
 
+        #print(task_spec.id)
+
     print(table)
+
+    for spec in gym.registry.values():
+        print(spec.id)
+        
 
 
 if __name__ == "__main__":
